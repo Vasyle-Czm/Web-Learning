@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+#phone{
+    border: 6px solid rgb(100, 100, 100);
+    border-radius: 70px;
+    background-color: black;
+    height: 800px;
+    width: 450px;
+}
+
+#screen{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 420px;
+    line-height: 3.6;
+    font-size: 60px;
+    text-align: right;
+    color: white;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    transition: background-color 0.15s;
+    margin: 4px;
+}
+
+button[name = zero]{
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+}
+
+button[name = logic]{
+    background-color: rgb(185, 0, 0);
+}
+
+button:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+button[name = logic]:focus{
+    background-color: chartreuse;
+}

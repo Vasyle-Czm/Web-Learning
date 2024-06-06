@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color:rgb(43, 43, 43);
+    background-image: url('background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:100% 200%;
+}
+h1{
+    color: white;
+    font-family:"Poetsen One",sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+#loginborder{
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 13px;
+    border: blur(5px);
+    width: 500px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+}
+#email{
+    margin-top: 24px;
+}
+input{
+    margin: 10px;
+    padding: 5%;
+    border: 0px;
+    border-radius: 5px;
+    width: 300px;
+    height: 1px;
+    font-family: "Robotoo", sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(160, 160, 160);
+}
+::placeholder{
+    color: rgb(83, 83, 83);
+}
+
+#logbtn{
+    margin: 15px;
+    width: 300px;
+    height: 45px;
+    background-color: green;
+    border-radius: 100px;
+    border-color: green;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-family: "Robotoo", sans-serif;
+    font-size: large;
+    
+    cursor:pointer;
+}
+#fgPass{
+    border: none;
+    background: none;
+    padding: 0;
+    color:rgb(146, 146, 146);
+    cursor:pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+#not-registered{
+    color: rgb(146, 146, 146);
+    font-family: "Robotoo", sans-serif;
+    font-size: 14px;
+}
+#create-account{
+    border:none;
+    background:none;
+    color: green;
+    font-size: 14px;
+    cursor: pointer;
+}
